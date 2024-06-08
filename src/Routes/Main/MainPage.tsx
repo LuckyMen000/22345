@@ -3,6 +3,7 @@ import { Box, Container, Heading, SimpleGrid, Text, Button, Image, useToast } fr
 import Header from '../../Components/Header';
 import Nav from '../../Components/Nav';
 import Footer from '../../Components/Footer';
+import '../../Components/Header.css'; // Импортируйте CSS файл
 
 const MainPage: React.FC = () => {
     const toast = useToast();
